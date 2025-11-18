@@ -1,43 +1,66 @@
-baseURL = 'https://engmichaelmartinez.com/'
+baseURL = 'https://engmichaelmartinez.co/'
 languageCode = 'en-us'
 title = 'Michael Martinez - Portfolio'
 theme = 'PaperMod'
 
- [params]
+[params]
   [params.homeInfoParams]
-    Title = "Hi, I'm Michael Martinez"
+    Title = "Hi, I'm Michael Martinez 👋"
     Content = """
     Full-Stack Developer & IT Professional
-
-
-    - Building modern web applications
-    - Self-hosting enthusiast
-    - Passionate about DevOps and automation
-
-
+    
+    - 🚀 Building modern web applications
+    - 🐧 Self-hosting enthusiast  
+    - 🛠️ Passionate about DevOps and automation
+    
     Check out my projects below!
     """
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/michael"
+    url = "https://github.com/yourusername"
 
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://linkedin.com/in/michael-martinez-0a3305a5/"
+    url = "https://linkedin.com/in/yourusername"
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:mmc.mike@proton.me"
+    url = "mailto:your.email@example.com"
 
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
 
- [menu]
-   [[menu.main]]
-     identifier = "about"
-     name = "About"
-     url = "/about/"
-     weight = 10
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
