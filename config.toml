@@ -1,0 +1,43 @@
+baseURL = 'https://engmichaelmartinez.com/'
+languageCode = 'en-us'
+title = 'Michael Martinez - Portfolio'
+theme = 'PaperMod'
+
+ [params]
+  [params.homeInfoParams]
+    Title = "Hi, I'm Michael Martinez"
+    Content = """
+    Full-Stack Developer & IT Professional
+
+
+    - Building modern web applications
+    - Self-hosting enthusiast
+    - Passionate about DevOps and automation
+
+
+    Check out my projects below!
+    """
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/michael"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/michael-martinez-0a3305a5/"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:mmc.mike@proton.me"
+
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+ [menu]
+   [[menu.main]]
+     identifier = "about"
+     name = "About"
+     url = "/about/"
+     weight = 10
